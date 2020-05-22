@@ -3,7 +3,7 @@ import stopstalk
 
 update_id = None
 
-bot=tBot(r"E:\edu\tmebot\config.cfg")
+bot=tBot(r"config.cfg")
 def make_reply(msg):
     reply=None
     if msg is not None:
