@@ -17,8 +17,10 @@ def text(input_text):
             nxt=7
         else:
             nxt=3
-    else:
+    elif(space in input_text):
         nxt=0
+    else:
+        nxt=1
     if(input_text!='All'):
         for coder in coders:
             if(str(coder[nxt])==input_text):
