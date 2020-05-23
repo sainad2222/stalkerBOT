@@ -1,6 +1,6 @@
 from newBot import tBot
 import stopstalk
-
+import time
 update_id = None
 
 bot=tBot(r"config.cfg")
@@ -24,7 +24,4 @@ while True:
             from_ = item['message']['from']['id']
             reply = make_reply(message)
             bot.send_message(reply,from_)
-from flask import Flask
-
-app = Flask(__name__)
-app.run(2222)
+time.sleep(5)
