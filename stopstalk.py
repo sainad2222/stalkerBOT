@@ -12,6 +12,7 @@ def RepresentsInt(s):
 def text(input_text):
     coders = res['users']
     rep=''
+    space=' '
     if(RepresentsInt(input_text)):
         if(int(input_text)<=200):
             nxt=7
