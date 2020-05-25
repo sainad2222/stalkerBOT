@@ -4,6 +4,7 @@ url='https://codeforces.com/api/user.rating?handle=sainad&secret=5897c4a26a9080a
 res = requests.get(url).json()['result']
 prevRating=res[-1]['newRating']
 def ratingChange():
+    global prevRating
     res=requests.get(url).json()['result']
     newRating=res[-1]['newRating']
     oldRating=res[-1]['oldRating']
