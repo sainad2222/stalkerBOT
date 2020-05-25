@@ -24,7 +24,7 @@ while True:
             update_id = item['update_id']
             try:
                 message = item['message']['text']
-            except:(ratingChanges,)
+            except:
                 message = None
             from_ = item['message']['from']['id']
             mine = item['message']['from']['id']
