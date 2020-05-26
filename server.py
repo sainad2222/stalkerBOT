@@ -3,7 +3,7 @@ import stopstalk
 import rating
 import time
 update_id = None
-
+mine=None
 bot=tBot(r"config.cfg")
 def make_reply(msg):
     reply=None
