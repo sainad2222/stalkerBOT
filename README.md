@@ -1,5 +1,5 @@
 # stalkerBOT
-[Bot link](https://t.me/saiscraperBOT)
+Click [here](https://t.me/saiscraperBOT) to test bot
 ### Bot Functions(so far):
 1. Notifies with a message whenever ratings are changed in codeforces
 
